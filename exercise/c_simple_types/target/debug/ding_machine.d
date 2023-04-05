@@ -1,0 +1,1 @@
+D:\Development\rustDevelopment\ultimate_rust_crash_course\exercise\c_simple_types\target\debug\ding_machine.exe: D:\Development\rustDevelopment\ultimate_rust_crash_course\exercise\c_simple_types\src\lib.rs D:\Development\rustDevelopment\ultimate_rust_crash_course\exercise\c_simple_types\src\main.rs

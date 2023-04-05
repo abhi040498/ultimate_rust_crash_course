@@ -1,0 +1,1 @@
+D:\Development\rustDevelopment\ultimate_rust_crash_course\exercise\d_control_flow_strings\target\debug\d_control_flow_strings.exe: D:\Development\rustDevelopment\ultimate_rust_crash_course\exercise\d_control_flow_strings\src\main.rs
