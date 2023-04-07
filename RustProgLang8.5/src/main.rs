@@ -1,5 +1,11 @@
-
+mod sh;
 use std::mem;
+
+use crate::sh::stack_and_heap;
+
+const VAR_NAME:u8 = 42;     // no fixed address.
+static mut Z: i32 = 123;    
+
 fn main() 
 {
     // println!("Hello, Rust");
@@ -35,7 +41,15 @@ fn main()
     println!("{}, size = {} bytes", e, mem::size_of_val(&g));
 
 println!("Now using operator function");
+
+// This unsafe says we use the above declared variable carefully.
+unsafe
+{
+    println!("{} ",Z);
+}
+
 operators();
+stack_and_heap();
 }
 
 fn operators()
