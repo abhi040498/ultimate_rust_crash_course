@@ -1,7 +1,10 @@
 mod sh;
+mod dataStructure;
+mod numerGuessGame;
 use std::mem;
 
-use crate::sh::stack_and_heap;
+// use crate::sh::stack_and_heap;
+use crate::dataStructure::enums;
 
 const VAR_NAME:u8 = 42;     // no fixed address.
 static mut Z: i32 = 123;    
@@ -48,8 +51,10 @@ unsafe
     println!("{} ",Z);
 }
 
-operators();
-stack_and_heap();
+// operators();
+// stack_and_heap();
+// enums();
+numerGuess();
 }
 
 fn operators()

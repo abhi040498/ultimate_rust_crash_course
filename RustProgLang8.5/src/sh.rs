@@ -1,5 +1,5 @@
 use std::mem;
-use rand::Rng;
+// use rand::Rng;
 use std::io::stdin;
 struct Point 
 {
