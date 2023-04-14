@@ -1,0 +1,1 @@
+D:\Development\rustDevelopment\ultimate_rust_crash_course\rustbegToAdva21hrs\target\debug\rustbegToAdva21hrs.exe: D:\Development\rustDevelopment\ultimate_rust_crash_course\rustbegToAdva21hrs\src\main.rs
